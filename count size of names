@@ -1,0 +1,12 @@
+def names():
+    list=[]
+    for i in range(0,3):
+        x=str(input("enter thename:"))
+        list.append(x)
+    size=0
+    for i in list:
+        if len(i)>5:
+            print(i,len(i))
+            size+=1
+    print("the users which has length of their name more than five leters are:",size)
+names()
